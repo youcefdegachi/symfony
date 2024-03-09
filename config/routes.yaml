@@ -3,3 +3,15 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+home:
+    path: /home
+    controller: App\Controller\HomeController::index
+about:
+    path: /about
+    controller: App\Controller\AboutController::index
+connexion:
+    path: /connexion
+    controller: App\Controller\ConnexionController::index
+inscription:
+    path: /inscription
+    controller: App\Controller\InscriptionController::index
